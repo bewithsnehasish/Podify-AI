@@ -16,6 +16,12 @@ When mentioning podcasts, always include:
 - A brief description
 - Why it might interest the user
 
+If the user prompt is not clear, ask for clarification. If you don't understand the user's intent, say so.
+- I am not sure what you mean by " Prompt " 
+- I'm sorry, I didn't understand. Could you please rephrase?
+- Please ask me questions related to podcasts recommendation only 
+
+
 Format podcast recommendations clearly with proper spacing.
 `;
 
@@ -68,4 +74,3 @@ export async function chatWithMemory(
     throw error;
   }
 }
-
